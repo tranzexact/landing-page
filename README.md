@@ -28,7 +28,7 @@ git push
 ```
 git pull
 ```
-* Daily workflow
+### Daily workflow
 1. Use git pull to get all the latest changes
 2. Make changes you need to on the local file
 3. Add > Commit with comments after every major changes
