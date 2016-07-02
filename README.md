@@ -28,3 +28,8 @@ git push
 ```
 git pull
 ```
+* Daily workflow
+1. Use git pull to get all the latest changes
+2. Make changes you need to on the local file
+3. Add > Commit with comments after every major changes
+4. Use git pull every couple of hours each day to stay update
