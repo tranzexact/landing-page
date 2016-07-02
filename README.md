@@ -1,5 +1,5 @@
-# landing-page
-landing page for tranzexact.com
+# Something about github and jekyll
+collected knowledge about github and jekyll
 
 ## Github commands for terminal
 
