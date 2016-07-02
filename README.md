@@ -3,6 +3,10 @@ collected knowledge about github and jekyll
 
 ## Github commands for terminal
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0fKg7e37bQE
+" target="_blank"><img src="http://img.youtube.com/vi/0fKg7e37bQE/0.jpg" 
+alt="YouTube video" width="240" height="180" border="10" /></a>
+
 * Clone a git repo to desktop in the selected directory
 ```
 git clone https://github.com/tranzexact/landing-page.git
@@ -16,7 +20,7 @@ git status
 git add index.html
 git add -A
 ```
-* Commit the new changes into the repo
+* Commit the new changes into the repo, if messed up then use :wq and hit enter
 ```
 git commit -m "added index.html"
 ```
