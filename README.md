@@ -11,9 +11,10 @@ git clone https://github.com/tranzexact/landing-page.git
 ```
 git status
 ```
-* Add any changes or new file by name (waiting to be committed)
+* Add any changes or new file by name (waiting to be committed) or use "-A" for all files
 ```
-add index.html
+git add index.html
+git add -A
 ```
 * Commit the new changes into the repo
 ```
@@ -22,4 +23,8 @@ git commit -m "added index.html"
 * Push any new commit to github.com
 ```
 git push
+```
+* Pull the latest version of the repo from github.com
+```
+git pull
 ```
