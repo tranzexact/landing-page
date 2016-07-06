@@ -8,30 +8,35 @@ collected knowledge about github
 alt="YouTube video" width="240" height="180" border="10" /></a>
 
 * Clone a git repo to desktop in the selected directory
-```
-git clone https://github.com/tranzexact/landing-page.git
-```
+  ```
+  git clone https://github.com/tranzexact/landing-page.git
+  ```
 * Compare status between local repo and git repo
-```
-git status
-```
+  ```
+  git status
+  ```
 * Add any changes or new file by name (waiting to be committed) or use "-A" for all files
-```
-git add index.html
-git add -A
-```
+  ```
+  git add index.html
+  git add -A
+  ```
 * Commit the new changes into the repo, if messed up then use :wq and hit enter
-```
-git commit -m "added index.html"
-```
+  ```
+  git commit -m "added index.html"
+  ```
 * Push any new commit to github.com
-```
-git push
-```
+  ```
+  git push
+  ```
 * Pull the latest version of the repo from github.com
-```
-git pull
-```
+  ```
+  git pull
+  ```
+* Roll back to a specific commit on a branch "gh-pages" to commmit with hashtag "cc172f4f5394c311fc9078b23656a30f33c733f0"
+  ```
+  git reset --hard cc172f4f5394c311fc9078b23656a30f33c733f0
+  git push -f origin gh-pages
+  ```
 ### Daily workflow
 1. Use git pull to get all the latest changes
 2. Make changes you need to on the local file
